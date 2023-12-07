@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css.css">
+
+    <title>Kitchen Lingua - Learn Ladino Online</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="top">
+            <h1><a href="#"><img src="LogoLongate_3Website.svg" alt="Kitchen Lingua."></a></h1>
+        </header>
+  
+        <nav class="flex-nav">
+          <a href="#" class="toggleNav">☰ Menu</a>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Learning</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="social">
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="social">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="social">
+              <a href="#"><i class="fa fa-github"></i></a>
+            </li>
+            <li class="social">
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+  
+        <section class="hero">
+          <img src="https://picsum.photos/1000/600">
+        </section>
+  
+        <section class="details">
+          <p>Learn Spanish the Jewish Way.</p>
+        </section>
+  
+        <div id="adcontainer" width="630" height="1200">
+          <section class="signup">
+            <form action="" class="signup">
+              <input type="text" placeholder="Your Name">
+              <input type="email" placeholder="Email Address">
+              <input type="submit" value="Sign me up!">
+            </form>
+          </section>
+        </div>
+  
+        <footer>
+          <p>&copy; by April Cyr</p>
+        </footer>
+      </div>
+  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script>
+  
+        $(function() {
+          $('.toggleNav').on('click',function() {
+            $('.flex-nav ul').toggleClass('open');
+          });
+        });
+  
+      </script>
+    
+</body>
+</html>
