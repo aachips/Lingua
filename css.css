@@ -83,6 +83,66 @@ html {
   .flex-nav .social {
     flex: 1;
   }
+
+  /* Ordered List */
+  p.source { 
+    color: rgba(255,255,255,.5); 
+    font-size: .8em; 
+    font-style: italic; 
+    margin: 0 0 0 30px; 
+  }
+  
+  p.source a { 
+    color: rgba(255,255,255,.75); 
+    padding-left: 7px; 
+  }
+  
+  ol.cities { 
+    list-style-type: none; 
+    margin: 0 0 0 30px; 
+  }
+  
+  ol.cities li { 
+    color: #ccffff;
+    counter-increment: myCounter; 
+    font-size: .9em;
+    margin: 0 0 45px 0; 
+    padding: 13px 0 0 65px;
+    position: relative;
+    }
+  
+    ol.cities li::before { 
+    background-color: #fff; 
+    border-radius: 5px; 
+    color: #0099cc; 
+    content: counter(myCounter, decimal-leading-zero); 
+    display: inline-block; 
+    font: 4em/1.3em 'Roboto', sans-serif;
+    font-weight: 900;
+    left: -40px;
+    padding: 10px;
+    position: absolute;
+    text-align: center; 
+    top: 0;
+  }
+  
+  ol.cities li em {
+    color: #fff;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .3em;
+    margin: 0 0 -5px 0;
+    text-transform: uppercase;
+  }
+  
+  ol.cities li strong {
+    color: #fff;
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    font-weight: 900;
+    margin: 0;
+  } 
   
   @media all and (max-width: 1000px) {
     .flex-nav ul {
@@ -142,3 +202,5 @@ html {
       order: 4;
     }
   }
+
+  
