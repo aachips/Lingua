@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Design the Web</title>
+		<link rel="stylesheet" type="text/css" href="form.css">
+        <style>/* CSS Document */
+
+            @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+            
+            body { 
+              background-color: #fff; 
+              font: 16px 'Montserrat', sans-serif; 
+            }
+            
+            form#signup {
+              background: #5890d0 url(images/background.jpg) no-repeat 0px -70px;
+              max-width: 800px;
+              padding: 15px;
+            }
+            
+            h2 {
+              color: #fff;
+              font-size: 2em;
+              margin: 0;
+            }
+            
+            h3 { 
+              color: #fff; 
+              font-size: 1.2em;
+              margin: -5px 0px 12px 0px;
+            }
+            
+            h4 { 
+              color: #fff;
+              font-size: 1em;
+              margin: 15px 0 3px 0;
+            }
+            
+            p, 
+            label {
+              color: rgba(255,255,255,.8);
+              margin: 0 0 6px 0;
+            }
+            
+            fieldset {
+              border: 1px solid rgba(255,255,255,.4);
+              margin: 15px 0;
+              padding: 0 10px 10px 20px;
+            }
+            
+            legend {
+              color: #254581;
+              font-size: .9em;
+            }
+            
+            textarea {
+              background-color: rgba(255,255,255,.8);
+              border: none;
+              color: #264581;
+              font-size: .9em;
+              padding: 5px;
+              width: 80%;
+            }
+            
+            textarea:focus {
+              background-color: #fff;
+            }
+            
+            select {
+              -moz-webkit-appearance: none;
+              -ms-webkit-appearance: none;
+              -o-webkit-appearance: none;
+              -webkit-appearance: none;
+              appearance: none;
+              background: #588fd0 url(images/icons_arrows.svg) no-repeat right 8px;
+              background-size: 30px 20px;
+              border: 1px solid #fff;
+              color: #ffd34c;
+              font-size: .9em;
+              padding: 7px 45px 7px 10px;
+            }
+            
+            select::-ms-expand {
+              display: none;
+            }
+            
+            input[type=checkbox], 
+            input[type=radio] {
+              margin: 0;
+              padding: 0;
+              opacity: 0;
+              width: 20px;
+            }
+            
+            input[type=checkbox] + label,
+            input[type=radio] + label {
+              background: url(images/icons_check_radio.svg) no-repeat;
+              background-size: 20px 80px;
+              display: inline-block;
+              line-height: 16px;
+              margin-left: -20px;
+              padding: 4px 0 0 27px;
+            }
+            
+            input[type=checkbox] + label {
+              background-position: 0 0;
+            }
+            
+            input[type=radio] + label {
+              background-position: 0 -40px;
+            }
+            
+            input:checked + label {
+              color: #ffd34c;
+            }
+            
+            input[type=checkbox]:checked + label {
+              background-position: 0 -20px;
+            }
+            
+            input[type=radio]:checked + label {
+              background-position: 0 -60px;
+            }
+            
+            input#email {
+              background: rgba(255,255,255,.8) url(images/icon_email.svg) no-repeat 7px 6px;
+              background-size: 30px 17px;
+              border: none;
+              color: #264581;
+              font-size: .9em;
+              margin: 0 0 12px 0;
+              padding: 5px 0 6px 47px;
+              width: 80%;
+            }
+            
+            input#email:focus {
+              background-color: #fff;
+            }
+            
+            input[type=submit] {
+              appearance: none;
+              background-color: #264581;
+              border: none;
+              border-radius: 5px;
+              color: #fff;
+              cursor: pointer;
+              font-size: .9em;
+              margin: 10px 0 5px;
+              padding: 10px 25px;
+            }
+            
+            input[type=submit]:hover {
+              color: #ffd34c;
+            }
+            </style>
+	</head>
+	<body>
+
+		<form id="signup" method="post" action="#">
+
+            <h4>Name</h4>
+            <input id="name" type="text" size="45" placeholder="Enter your full name.">
+            <br>
+			<h4>Email</h4>
+			<input id="email" type="text" size="45" placeholder="Enter your full email address">
+			<br>
+			<input type="submit" value="Sign up for the Daily Palavra">
+		</form>
+
+
+	</body>
+</html>
