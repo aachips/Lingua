@@ -1,0 +1,95 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: KitchenLingua-BrochureFinal-AprilCyr.indd
+
+PACKAGE DATE: 12/11/2023 12:42 PM
+Creation Date: 12/11/2023
+Modification Date: 12/11/2023
+
+CONTACT INFORMATION
+
+Company Name: April's Apple Chips
+Contact: April Cyr
+Address: 
+A-B Tech
+
+
+
+
+Phone: 123-333-3333
+Fax: 
+Email: aprilmcyr@students.abtech.edu
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+Educational fair use
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On PageNA, 1, 2
+
+FONTS
+6 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: ArialMT; Type: OpenType TrueType, Status: OK
+- Name: CooperBlack; Type: OpenType TrueType, Status: OK
+- Name: Gabriola; Type: OpenType TrueType, Status: OK
+- Name: MinionPro-Regular; Type: OpenType CFF, Status: OK
+- Name: MonotypeCorsiva; Type: OpenType TrueType, Status: OK
+- Name: Solitreo-Regular; Type: TrueType, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 0 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Magenta; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Black; Angle: 0.000; Lines/Inch: 0.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 10 Links Found; 0 Modified, 0 Missing, 0 Inaccessible
+Images: 0 Embedded, 7 use RGB color space
+
+
+PRINT SETTINGS
+PPD: N/A, (\\ist-pc-prod\XeroxFollowMe_Color_TwoSided)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Center
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0 in, 0 in, 0 in, 0 in
+Color: Composite RGB
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Custom: 11.11 in x 8.63 in
+Paper Dimensions: 8.5 in x 11 in
+Orientation: Landscape
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. KitchenLingua-BrochureFinal-AprilCyr.indd; type: Adobe InDesign publication; size: 4440K
+2. KitchenLingua-BrochureFinal-AprilCyr.idml; type: InDesign Markup Document; size: 667K
+3. KitchenLingua-BrochureFinal-AprilCyr.pdf; type: Adobe Acrobat Document; size: 715K
+4. arial.ttf; type: Font file; size: 1021K
+5. COOPBL.TTF; type: Font file; size: 78K
+6. Gabriola.ttf; type: Font file; size: 1763K
+7. MinionPro-Regular.otf; type: Font file; size: 213K
+8. MTCORSVA.TTF; type: Font file; size: 153K
+9. Solitreo-Regular.ttf; type: Font file; size: 91K
