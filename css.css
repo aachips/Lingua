@@ -38,10 +38,14 @@ html {
     display: none;
   }
   
-  img {
+  img.w {
     width: 100%;
   }
   
+  .h {
+    width: 50%;
+    
+  }
   #wrapper {
     margin: 0 auto;
     max-width: 1000px;
@@ -63,9 +67,22 @@ html {
     font-weight: bold;
     margin: 20px 0;
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
   }
   
+  .fl {
+    float: left;
+    padding: 1rem;
+    clear: left;
+  }
+  .fr {
+    float: right;
+    padding: 1rem;
+    clear: right;
+  }
+  .b {
+    height: 350px;
+  }
   /* Flex Container */
   .flex-nav ul {
     border: 1px solid #000;
@@ -89,7 +106,7 @@ html {
     color: rgba(255,255,255,.5); 
     font-size: .8em; 
     font-style: italic; 
-    margin: 0 0 0 30px; 
+    margin: 0 0 0 20px; 
   }
   
   p.source a { 
@@ -97,36 +114,38 @@ html {
     padding-left: 7px; 
   }
   
-  ol.cities { 
+  /* Objectives */
+  ol.objectives { 
     list-style-type: none; 
-    margin: 0 0 0 30px; 
+    margin: 0 0 0 30px;
+ 
   }
   
-  ol.cities li { 
+  ol.objectives li { 
     color: #ccffff;
     counter-increment: myCounter; 
-    font-size: .9em;
-    margin: 0 0 45px 0; 
-    padding: 13px 0 0 65px;
+    font-size: 1.5rem;
+    margin: 5px 0 45px 0; 
+    padding: 43px 0 0 65px;
     position: relative;
     }
   
-    ol.cities li::before { 
-    background-color: #fff; 
+    ol.objectives li::before { 
+    background-color: #f4924c77; 
     border-radius: 5px; 
-    color: #0099cc; 
+    color: #6D00cb99; 
     content: counter(myCounter, decimal-leading-zero); 
     display: inline-block; 
-    font: 4em/1.3em 'Roboto', sans-serif;
+    font: 2em/1.3em 'Roboto', sans-serif;
     font-weight: 900;
     left: -40px;
-    padding: 10px;
+    padding: .5rem;
     position: absolute;
     text-align: center; 
     top: 0;
   }
   
-  ol.cities li em {
+  ol.objectives li em {
     color: #fff;
     display: block;
     font-family: 'Roboto', sans-serif;
@@ -135,7 +154,7 @@ html {
     text-transform: uppercase;
   }
   
-  ol.cities li strong {
+  ol.objectives li strong {
     color: #fff;
     display: block;
     font-family: 'Roboto Slab', serif;
@@ -144,6 +163,38 @@ html {
     margin: 0;
   } 
   
+  /* Form */
+  section.signup {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-image: url(Deliverables/Adverts/KitchenLingua-EmailAdvert.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 800px;
+    height: 570px;
+    position: relative; 
+  }
+
+  form {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+  }
+
+  .break {
+    flex-basis: 50%;
+    font-family: 'Solitreo', cursive;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #6D00cb;
+  }
+
   @media all and (max-width: 1000px) {
     .flex-nav ul {
       flex-wrap: wrap;
